@@ -11,6 +11,8 @@ describe("Home final project", () => {
 
     it("Test case 1: done", async () =>{
 
+        await browser.maximizeWindow()
+
         await browser.url('https://github.com/');
         await browser.pause(4000)
 
