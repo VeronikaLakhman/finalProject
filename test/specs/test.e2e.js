@@ -9,7 +9,7 @@ import Pricing from "./../pages/pricing.js"
 
 describe("Home final project", () => {
 
-    xit("Test case 1: done", async () =>{
+    it("Test case 1: done", async () =>{
 
         await browser.url('https://github.com/');
         await browser.pause(4000)
@@ -45,7 +45,7 @@ describe("Home final project", () => {
         await browser.pause(2000)   
     });
 
-    xit("Test case 2: done", async () =>{
+    it("Test case 2: done", async () =>{
 
         await browser.url('https://github.com/');
         await browser.pause(4000)
@@ -69,7 +69,7 @@ describe("Home final project", () => {
         await browser.pause(2000)
     });
 
-    xit("Test case 3: done", async () =>{
+    it("Test case 3: done", async () =>{
 
         await browser.url('https://github.com/');
         await browser.pause(4000)
@@ -111,7 +111,7 @@ describe("Home final project", () => {
         await browser.pause(2000)
     });
 
-    xit("Test case 4: done", async () =>{
+    it("Test case 4: done", async () =>{
 
         await browser.url('https://github.com/');
         await browser.pause(4000)
@@ -151,12 +151,6 @@ describe("Home final project", () => {
         await browser.pause(2000)
 
     });
-
-
-
-    
-
-
 });
 
 
