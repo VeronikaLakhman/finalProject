@@ -14,6 +14,10 @@ class MainPage{
         await this.signUpBtn.click()
     }
 
+    async scrollToFooterTitleText(){
+        await this.footerTitleText.scrollIntoView()
+    }
+
     async footerTitleIsExisting(){
         await this.footerTitleText.isExisting()
     }
@@ -24,6 +28,10 @@ class MainPage{
 
     async clickOnStartFreeTrialBtn(){
         await this.startFreeTrialBtn.click()
+    }
+
+    async scrollToSubscribeBtn(){
+        await this.subscribeBtn.scrollIntoView()
     }
 
     async subscribeBtnisExisting(){

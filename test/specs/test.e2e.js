@@ -52,7 +52,7 @@ describe("Home final project", () => {
         await browser.url('https://github.com/');
         await browser.pause(4000)
 
-        await MainPage.footerTitleText.scrollIntoView()
+        await MainPage.scrollToFooterTitleText()
         await browser.pause(2000)
 
         await MainPage.footerTitleIsExisting()
@@ -76,7 +76,7 @@ describe("Home final project", () => {
         await browser.url('https://github.com/');
         await browser.pause(4000)
 
-        await MainPage.subscribeBtn.scrollIntoView()
+        await MainPage.scrollToSubscribeBtn()
         await browser.pause(2000)
 
         await MainPage.subscribeBtnisExisting()
@@ -143,7 +143,7 @@ describe("Home final project", () => {
         await Pricing.titleIsDisplayed()
         await browser.pause(2000)
 
-        await Pricing.cscrollToCompareAllFeatures() //
+        await Pricing.cscrollToCompareAllFeatures()
         await browser.pause(2000)
 
         await Pricing.clickOnCompareFeatures()
